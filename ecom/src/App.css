@@ -118,7 +118,7 @@ body {
 }
 
 .link-text {
-  overflow: hidden;
+  overflow: hidden;   /* extra text ko hide karta hai */
   text-overflow: ellipsis;
   opacity: 1;
   transition: opacity 0.3s ease, width 0.3s ease;
